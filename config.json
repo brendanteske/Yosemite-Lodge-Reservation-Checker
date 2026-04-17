@@ -1,0 +1,41 @@
+{
+    "_NOTE": "Standard JSON does not support normal comments, so these underscore keys act as our guide!",
+    
+    "discord_settings": {
+        "_webhook_url_OPTIONS": "Paste your Discord Webhook URL here",
+        "webhook_url": "YOUR_WEBHOOK_HERE",
+        
+        "_check_interval_minutes_OPTIONS": "Number of minutes to wait between searches. Recommended: 5",
+        "check_interval_minutes": 5
+    },
+
+    "search_settings": {
+        "_checkin_date_OPTIONS": "Format must be exactly MM/DD/YYYY",
+        "checkin_date": "06/19/2026",
+        
+        "_checkout_date_OPTIONS": "Format must be exactly MM/DD/YYYY",
+        "checkout_date": "06/24/2026",
+        
+        "_lodging_type_OPTIONS": "Use '_ALLPROPS_' (All), 'D' (Curry Village), 'H' (Housekeeping), 'M' (Ahwahnee), 'T' (Tuolumne), or 'Y' (Yosemite Valley Lodge)",
+        "lodging_type": "_ALLPROPS_",
+        
+        "_rooms_OPTIONS": "A number from '1' to '9'",
+        "rooms": "1",
+        
+        "_adults_OPTIONS": "A number from '1' to '9'",
+        "adults": "1",
+        
+        "_children_OPTIONS": "A number from '0' to '9'",
+        "children": "0"
+    },
+    
+    "website_locators": {
+        "_WARNING": "Do not change these unless the website updates its underlying HTML code!",
+        "dropdown_lodge_id": "box-widget_ProductSelection",
+        "dropdown_rooms_id": "box-widget_UnitCount",
+        "dropdown_adults_id": "box-widget_Adults",
+        "dropdown_children_id": "box-widget_Children",
+        "input_checkin_id": "box-widget_ArrivalDate",
+        "input_checkout_id": "box-widget_DepartureDate"
+    }
+}

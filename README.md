@@ -10,15 +10,15 @@ A Python-based automation tool designed to monitor Yosemite National Park reserv
 - **Deep Configuration**: Manage guest counts, lodge types, dates, and even website element IDs through a single JSON file.
 - **Stealth UI Handling**: Uses JavaScript injection to set dropdown values and handles stubborn datepicker overlays automatically.
 
-## Prerequisites
+## Prerequisites & Installation
 
-- **Python 3.x**
-- **Google Chrome**
-- **ChromeDriver** (Matched to your Chrome version)
-- Python Libraries:
-  ```bash
-  pip install selenium requests
-Configuration
+1. **Python 3.x**: Ensure Python is installed and added to your PATH.
+2. **Install Dependencies**: Run the following command in your terminal to install the exact library versions required for this script:
+   ```bash
+   pip install -r requirements.txt
+
+## Configuration
+
 The script is entirely driven by config.json. Ensure this file is in the same directory as the script.
 
 discord_settings
